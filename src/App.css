@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* letter-spacing: 0.5px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Playfair Display", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1{
+  font-size: 72px;
+}
+
+h2{
+  font-size: 48px;
+}
+
+h1,h2,h3 {
+  color: #3F4F44;
+}
+
+p{
+  color: #705C53;
+}
+
+.link-project {
+  color: #705C53;
+  text-align: justify;
+}
+
+.link-project:hover {
+  color: rgb(208, 179, 164)
+}
+
+.sub-title-project{
+  margin: 10px 0;
+}
+
+.ant-tag{
+  font-family: "Playfair Display", sans-serif;
+}
+
+.column-project {
+  flex: 1;
+  /* min-width: 250px;  */
+}
+
+.content-project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Default gap for two columns */
+}
+
+@media (max-width: 768px) {
+  .content-project {
+    flex-direction: column;
+    gap: 0px; /* Removes gap when stacked */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media only screen and (max-width: 500px) {
+  h1{
+    font-size: 52px;
+  }
+  
+  h2{
+    font-size: 32px;
+  }
+}
+
+.main-section{
+  margin-right:200px;
+  margin-left: 5%;
+  padding:50px;
+}
+
+#about-section{
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+html {
+  scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+.ant-message{
+  z-index: 10050;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* .logo-general{
+  margin: 0 10px;
+} */
+@media only screen and (max-width: 700px) {
+  .main-section{
+    margin-right: 0;
+    margin-left: 0;
+    padding: 30px;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .main-section{
+    margin-right: 0;
+    margin-left: 0;
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .main-section{
+    margin-left: 0;
+  }
+  #about-section{
+    height: auto;
+    min-height: 700px;
+  }
+}
+@media only screen and (max-height: 590px) {
+  #about-section{
+    height: auto;
+    min-height: 700px;
+
+  }
+}
+
+

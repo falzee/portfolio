@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Student Grade Conversion System",
+    "subTitle":"Team and University Project",
+    "preview":"konversiImg.webp",
+    "link":{
+      "design":"https://www.figma.com/design/8yUlJ3DXLEY66HTxTHv3DA/Sistem-Konversi-Nilai?node-id=0-1&t=pM2nz2lOFqkjsUeM-1",
+      "code":"https://github.com/falzee/demo-konversi"
+    },
+    "description": "This is a website that me and my team created as a requirement project to graduate from university. This website is also a project to create a prototype to convert student grades from raw data to final grades that will later be verified by the assessor. The creation of this website includes research with the supervisor to determine the right tools to create a website that can be integrated with other systems. This project may seem ordinary, but in my eyes it taught me a lot about working as a team.",
+    "tags": ["React JS","Express","Axios","Antd","react-router","Mongo DB"]
+  },
+  {
+    "id": 2,
+    "title": "CRUD Operation Website",
+    "subTitle":"Self Project",
+    "preview":"crudApp.webp",
+    "link":{
+      "design":"https://www.figma.com/design/SfngNwfTRTIguyzhYF7BuV/Prototype-2-Log%2FReg%5BUI%5D?node-id=0-1&t=Itoq0lfd3R3Q56Nc-1",
+      "code":"https://github.com/falzee/simple-crud-operation",
+      "website":"https://falzee.github.io/simple-crud-operation/"
+    },
+    "description": "Is a website that i created to implement my knowledge from learning and concepts that i understand about frontend development when i was doing an internship, including the design flow. The website has a crud feature (create, read, update, delete) for tables and also a login and logout system. This website is also responsive for mobile users.",
+    "tags": ["React JS","react-redux","Typescript","json-server"]
+  },
+  {
+    "id": 3,
+    "title": "This Portfolio",
+    "subTitle":"Self Project",
+    "preview":"portfolioImg.webp",
+    "link":{
+      "design":"https://www.figma.com/design/p2erXcCWqHLojoW8orsQ0t/Portfolio-Design-v1?node-id=0-1&t=9qY1wHhL8Ey2d28E-1",
+      "code":"https://github.com/falzee/portfolio"
+    },
+    "description": "Contains the skills and projects i have as a web developer, with proof of the website you see now (at least). Interested in the website i created or my skills? You can contact me at the bottom of this website, or if you are interested in this website instead you can see the code and design of this website via the link below. I look forward to collaborating and working together with you to create an amazing project together.",
+    "tags": ["React JS","Typescript","Antd","Css in js"]
+  }
+]
+
+  
