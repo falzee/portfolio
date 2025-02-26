@@ -86,11 +86,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-
-
-
-        {/* multiple Component */}
       </div>
     )
   }

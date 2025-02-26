@@ -59,7 +59,6 @@ function App() {
     <div  className='main-page' style={{
       backgroundColor:"#F5F5F7"
     }}>
-      {/* Navigation Links with Hash */}
       {sider ? 
         <nav
           style={{
