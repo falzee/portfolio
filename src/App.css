@@ -32,6 +32,11 @@ p{
 .link-project {
   color: #705C53;
   text-align: justify;
+  word-break: break-all; /* Forces breaking at any character */
+  overflow-wrap: break-word; /* Ensures long words break correctly */
+  white-space: normal; /* Allows wrapping */
+  display: inline-block; /* Prevents overflow */
+  max-width: 100%; /* Ensures it stays within container */
 }
 
 .link-project:hover {
@@ -46,23 +51,35 @@ p{
   font-family: "Playfair Display", sans-serif;
 }
 
-.column-project {
-  flex: 1;
-  /* min-width: 250px;  */
-}
-
+/* ProjectList */
 .content-project {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Default gap for two columns */
+  width: 100%;
+  max-width: 100%;
+  gap: 15px;
+}
+
+.column-project {
+  flex: 1;
+  min-width: 300px; 
+  flex-wrap: wrap;
+  max-width: 100%;
+  min-width: 0;
 }
 
 @media (max-width: 768px) {
   .content-project {
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
     gap: 0px; /* Removes gap when stacked */
   }
 }
+/* ProjectList END */
+
 
 @media only screen and (max-width: 500px) {
   h1{
@@ -87,6 +104,7 @@ p{
   align-items: flex-start;
   justify-content: flex-end;
 }
+
 html {
   scroll-behavior: smooth;
 }

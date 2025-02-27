@@ -102,6 +102,11 @@ const ProjectList: React.FC<Props> = ({ title,subTitle,preview,link,description,
               padding:"125px 15px 15px 15px",
               zIndex: 1000,
               position: "relative", // Added position
+              width: "100%", // Ensures it fits parent
+              maxWidth: "100%", // Prevents overflow
+              overflow: "hidden", // Stops content from bleeding
+              display: "flex",
+              flexDirection: "column",
             }}
             >
               <div className="content-project">
