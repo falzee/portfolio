@@ -26,11 +26,11 @@ const About = () => {
             fontSize:"22px",
             textDecoration: 'none' 
           }}
-          href="https://drive.google.com/file/d/10xknxxxBncajrcDz21CeNyMzwB5iJec-/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+          href="https://drive.google.com/file/d/1Z8P9PMS7hN78doy91DGx44fVJsO0gXQP/view?usp=sharing" target="_blank" rel="noopener noreferrer"
           >
             My CV
           </Button>
-        <p style={{margin:"5px 0",fontStyle:"italic"}}>For <a href="https://drive.google.com/file/d/1zxJTHtqW4MUT3U8VZrkrzQKHLwp8JJRG/view?usp=sharing" style={{ color:"#705C53"}} target="_blank" rel="noopener noreferrer">EN ver.</a> CV</p>
+        <p style={{margin:"5px 0",fontStyle:"italic"}}>For <a href="https://drive.google.com/file/d/1XQuUkRVVSSaoDx-Ie23xt4c1R89BuKwv/view?usp=sharing" style={{ color:"#705C53"}} target="_blank" rel="noopener noreferrer">EN ver.</a> CV</p>
         </div>
       </div>
     )
