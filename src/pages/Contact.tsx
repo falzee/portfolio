@@ -1,6 +1,6 @@
 import { Button, Input, message, Tooltip } from 'antd'
 import TextArea from 'antd/es/input/TextArea'
-import {GithubLogo,WaLogo,EmailLogo} from '../img/LogoSvg'
+import {GithubLogo,WaLogo,EmailLogo, LinLogo} from '../img/LogoSvg'
 import React, { Component } from 'react'
 
 const Contact = () => {
@@ -27,14 +27,23 @@ const Contact = () => {
         <div style={{ margin:"20px 0",display:'flex'}}>
           
         <Tooltip color='#3F4F44' title="Click to copy!">
-          <EmailLogo onClick={() => handleCopyClick("naufalghozi1100@gmail.com","Naufal Email")} style={{marginRight:"24px",cursor:"pointer"}} />
+          <div>
+            <EmailLogo onClick={() => handleCopyClick("naufalghozi1100@gmail.com","Naufal Email")} style={{cursor:"pointer"}} />
+          </div>
         </Tooltip>
         <Tooltip color='#3F4F44' title="Click to copy!">
-          <WaLogo onClick={() => handleCopyClick("+6285334412198","Naufal Contact")} style={{marginRight:"24px",cursor:"pointer"}} />
+          <div>
+            <WaLogo onClick={() => handleCopyClick("+6285334412198","Naufal Contact")} style={{cursor:"pointer"}} />
+          </div>
         </Tooltip>
         <Tooltip color='#3F4F44' title="Click to go this page!">
           <a href="https://github.com/falzee" target="_blank" rel="noopener noreferrer">
-            <GithubLogo style={{marginRight:"24px",cursor:"pointer",textDecoration:"none"}} />
+            <GithubLogo style={{cursor:"pointer",textDecoration:"none"}} />
+          </a>
+        </Tooltip>
+        <Tooltip color='#3F4F44' title="Click to go this page!">
+          <a href="https://www.linkedin.com/in/muhammad-naufal-ghozi-a01233196" target="_blank" rel="noopener noreferrer">
+            <LinLogo style={{cursor:"pointer",textDecoration:"none"}} />
           </a>
         </Tooltip>
         </div>
