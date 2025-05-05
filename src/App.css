@@ -162,6 +162,73 @@ html {
   }
 }
 
+@keyframes typing-first {
+  0.0000% { content: ""; }
+  11.111% { content: "M"; }
+  22.222% { content: "Mu"; }
+  33.333% { content: "Muh"; }
+  44.444% { content: "Muha"; }
+  55.555% { content: "Muham"; }
+  66.666% { content: "Muhamm"; }
+  77.777% { content: "Muhamma"; }
+  88.888% { content: "Muhammad"; }
+  100% { content: "Muhammad"; border-right: none; }
+}
+
+@keyframes typing-more {
+  0.0000% { content: ""; }
+  7.6923% { content: "N"; }
+  15.3846% { content: "Na"; }
+  23.0769% { content: "Nau"; }
+  30.7692% { content: "Nauf"; }
+  38.4615% { content: "Naufa"; }
+  46.1538% { content: "Naufal"; }
+  53.8461% { content: "Naufal "; }
+  61.5384% { content: "Naufal G"; }
+  69.2307% { content: "Naufal Gh"; }
+  76.9230% { content: "Naufal Gho"; }
+  84.6153% { content: "Naufal Ghoz"; }
+  92.3076% { content: "Naufal Ghozi";  }
+  100% { content: "Naufal Ghozi";  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; border-right: 0;}
+  50% { opacity: 1; border-right: 1px solid #3F4F44;  }
+}
+
+.first-name {
+  --caret: currentcolor;
+  /* animation-fill-mode: forwards; */
+}
+
+.first-name::before {
+  content: "";
+  animation: typing-first 1.6s forwards;
+}
+
+.first-name::after {
+  content: "";
+  animation: blink 0.5s 1;
+}
+
+.more-name{
+  --caret: currentcolor;
+}
+
+.more-name::before {
+  content: "";
+  animation: typing-more 2.4s forwards;
+  animation-delay: 1.6s;
+}
+
+.more-name::after {
+  content: "";
+  animation: blink 0.5s infinite;
+  animation-delay: 1.6s;
+}
+
+
 
 /* .logo-contact:hover {
   width: 64px;

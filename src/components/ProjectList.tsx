@@ -76,17 +76,17 @@ const ProjectList: React.FC<Props> = ({ title,subTitle,preview,link,description,
               <p>{subTitle}</p>
               {/* 2 sub-title */}
             </div>
-            {listProject === "notCollapse" ? (
-              <CaretUpOutlined
-              onClick={() => setlistProject("collapse")}
-              style={{ color: "#3F4F44", fontSize: "32px", marginLeft: "auto", marginRight: "20px" }}
-              />
-            ) : listProject === "collapse" ? (
-              <CaretDownOutlined
-              onClick={() => setlistProject("notCollapse")}
-              style={{ color: "#3F4F44", fontSize: "32px", marginLeft: "auto", marginRight: "20px" }}
-              />
-            ) : null}
+            <CaretDownOutlined
+              onClick={() => setlistProject(prev => (prev === "notCollapse" ? "collapse" : "notCollapse"))}
+              style={{
+                color: "#3F4F44",
+                fontSize: "32px",
+                marginLeft: "auto",
+                marginRight: "20px",
+                transition: "transform 0.8s",
+                transform: listProject === "notCollapse" ? "rotate(180deg)" : "rotate(0deg)",
+              }}
+            />
           </div>
           
           {listProject === "notCollapse" ? (
@@ -107,6 +107,7 @@ const ProjectList: React.FC<Props> = ({ title,subTitle,preview,link,description,
               overflow: "hidden", // Stops content from bleeding
               display: "flex",
               flexDirection: "column",
+              // transition: "height 2s linear"
             }}
             >
               <div className="content-project">

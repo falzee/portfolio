@@ -9,7 +9,7 @@
       "code":"https://github.com/falzee/demo-konversi"
     },
     "description": "This is a website that me and my team created as a requirement project to graduate from university. This website is also a project to create a prototype to convert student grades from raw data to final grades that will later be verified by the assessor. The creation of this website includes research with the supervisor to determine the right tools to create a website that can be integrated with other systems. This project may seem ordinary, but in my eyes it taught me a lot about working as a team.",
-    "tags": ["React JS","Express","Axios","Antd","react-router","Mongo DB"]
+    "tags": ["React JS","Express","Node JS","Antd","react-router","Mongo DB"]
   },
   {
     "id": 2,

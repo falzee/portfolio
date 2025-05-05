@@ -31,11 +31,11 @@ const Contact = () => {
             <EmailLogo onClick={() => handleCopyClick("naufalghozi1100@gmail.com","Naufal Email")} style={{cursor:"pointer"}} />
           </div>
         </Tooltip>
-        <Tooltip color='#3F4F44' title="Click to copy!">
+        {/* <Tooltip color='#3F4F44' title="Click to copy!">
           <div>
-            <WaLogo onClick={() => handleCopyClick("+6285334412198","Naufal Contact")} style={{cursor:"pointer"}} />
+            <WaLogo onClick={() => handleCopyClick("","Naufal Contact")} style={{cursor:"pointer"}} />
           </div>
-        </Tooltip>
+        </Tooltip> */}
         <Tooltip color='#3F4F44' title="Click to go this page!">
           <a href="https://github.com/falzee" target="_blank" rel="noopener noreferrer">
             <GithubLogo style={{cursor:"pointer",textDecoration:"none"}} />
