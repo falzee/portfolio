@@ -7,7 +7,7 @@ const About = () => {
         <p style={{ fontSize:"24px"}}>Hi, my name is</p>
         <h1 className='first-name'></h1>
         <h1 className='more-name'></h1>
-        <p style={{ fontSize:"24px",fontStyle:"italic"}}>Web Developer | Sofware Engineer</p>
+        <p style={{ fontSize:"24px",fontStyle:"italic"}}>Web Developer | Software Engineer</p>
         <p style={{paddingRight:"10%",marginTop:'5px'}}>
           With experience more than 2 years in the world of "pixel perfecting" your website desain to become reality. You can see more information about me and my skills in my CV right below! 👇
         </p>
