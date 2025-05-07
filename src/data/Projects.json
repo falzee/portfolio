@@ -1,4 +1,4 @@
-[
+[   
   {
     "id": 1,
     "title": "Student Grade Conversion System",
@@ -35,7 +35,17 @@
     },
     "description": "Contains the skills and projects i have as a web developer, with proof of the website you see now (at least). Interested in the website i created or my skills? You can contact me at the bottom of this website, or if you are interested in this website instead you can see the code and design of this website via the link below. I look forward to collaborating and working together with you to create an amazing project together.",
     "tags": ["React JS","Typescript","Antd","Css in js"]
-  }
+  },
+  {
+    "id": 4,
+    "title": "BOKK a Bookstore Website (On Progress)",
+    "subTitle":"Self Project",
+    "preview":"BOKK.webp",
+    "link":{
+    },
+    "description": "[Project under development] A project that aims to create a website that functions for the book purchasing process and managing its sales.",
+    "tags": ["Propose tools:","Vue JS","Laravel","MySQL"]
+    }
 ]
 
   
